@@ -161,11 +161,7 @@ Entre na pasta `mascara-formularios` e abra o arquivo `index.html`.
 
 <p id="autor"></p>
 
-## Autor
 
-<kbd>
- <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/37749943?s=460&u=70f3bf022f3a0f28c332b1aa984510910818ef02&v=4" width="100px;" alt="iglan cardeal"/>
-</kbd>
 
 <b>João Cardoso</b>
 
