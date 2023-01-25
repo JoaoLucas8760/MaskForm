@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  line-height: 1.4;
+  color: #3b3838;
+  background-color: #ddccb5;
+  min-width: 510px;
+  text-align: center;
+}
+
+.main-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-header img {
+  width: 30px;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  text-shadow: -2px 5px 2px rgba(204, 191, 174, 0.9);
+}
+
+.main-container {
+  text-align: center;
+}
+
+.main-form {
+  /* box-shadow: -2px 20px 10px rgba(204, 191, 174, 0.9); */
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25),
+    -10px -10px 60px rgba(255, 255, 255, 0.3);
+  width: 600px;
+  height: 100%;
+  padding: 20px 0;
+  margin-left: calc(50% - 300px);
+  border-radius: 50px;
+}
+
+.main-form__mask--input {
+  margin: 30px 0;
+}
+
+.main-form__mask--input label {
+  font-size: 1.2rem;
+  display: block;
+}
+
+.main-form__mask--input input {
+  width: 52%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#mascara-cartao {
+  display: block;
+  padding: 15px;
+  border-radius: none;
+  background: inherit;
+  margin-left: calc(50% - 15%);
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(150, 140, 127, 0.7);
+  transition: 0.2s;
+}
+
+#mascara-cartao:active {
+  box-shadow: 0 1px 5px rgba(204, 191, 174, 0.4);
+  transition: 0.2s;
+}
+
+#mascara-cartao:hover {
+  box-shadow: 0 1px 5px rgba(204, 191, 174, 0.4);
+  background-color: rgb(139, 130, 117);
+  color: rgb(248, 244, 239);
+  transition: 0.2s;
+}
+
+#numero-salvo {
+  margin: 20px 0;
+  font-size: 2rem;
+}
