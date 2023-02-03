@@ -154,7 +154,7 @@ document.getElementById("mascara-cartao").addEventListener("click", (event) => {
 Se desejar testar localmente, use o [Git](https://git-scm.com/) para clonar este repositório:
 
 ```bash
-$ git clone https://github.com/IglanCardeal/mascara-formularios
+$ git clone https://github.com/JoaoLucas8760/MaskForm
 ```
 
 Entre na pasta `mascara-formularios` e abra o arquivo `index.html`.
